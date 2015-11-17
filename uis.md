@@ -7,12 +7,14 @@
 
 BitShares允许个人和公司发行他们自己的代币，可以代表他们想象的任何事物。常见的用例包括：
 
-- [存款收据 Deposit Receipts](#dr)
+[TOC]
+
+- [存款收据 Deposit Receipts](#存款收据)
   - [1. 了解你的客户 Know Your Customer KYC](#1kyc)
   - [2. 资产绑定 Asset Seizing](#2as)
   - [3. 市场约束 Market Restriction](#3mr)
   - [4. 交易约束 Transfer Restrictions](#4rr)
-- [公司股份 Company Shares](#cs)
+- [公司股份 Company Shares](#Company-Shares)
 - [活动门票 Event Tickets](#et)
 - [奖励积分 Rewards Points](#rp)
 - [个人或公司债务 Individual or Corporate Debt](#icd)
@@ -27,13 +29,13 @@ BitShares允许个人和公司发行他们自己的代币，可以代表他们�
 
 下面是几个用户发行资产的用例
 
-## <span id="Deposit Receipts">存款收据</span>
+## 存款收据
 
 Banks are simply companies that maintain a database of customer account balances and facilitate the transfer of these assets among their depositors. Companies like Dwolla and Paypal essentially issue deposit receipts, and then offer cheaper transfers among their users than between banks. With BitShares, it is now possible to move these internal databases onto the blockchain where the deposits can be used with other smart contracts such as the internal markets, escrow, or bonds.
 
 In talking to many different banks and exchanges, we have learned a lot about what the law requires of those who wish to issue deposit receipts.
 
-### <span id="1kyc">1. Know Your Customer</span>
+### 1. Know Your Customer
 
 First and foremost the issuer must know every single customer. BitShares supports this by enabling both whitelists and blacklists. Rather than requiring every issuer to whitelist every customer separately, an issuer may specify a set of identity verifiers that they trust to do this job. This allows issuers to benefit from the network effect of validated users without having to do any direct identity verification themselves.
 
@@ -53,7 +55,7 @@ A transfer-restricted asset allows the holders of the asset to trade it in the m
 
 The deposit receipt example is probably one of the most important, and yet most heavily regulated, use cases of user-issued assets.
 
-## <span id="cs">Company Shares</span>
+## Company Shares
 Corporate shares are heavily regulated by the SEC, but none of those regulations prevent them from being issued or traded on an alternative trading system. The regulations in many jurisdictions require all shares to be registered (aka held by known identities). BitShares corporate shares can be used as collateral for a bond or be used in any number of smart contracts.
 
 ## <span id="et">Event Tickets</span>
