@@ -14,7 +14,7 @@ BitShares允许个人和公司发行他们自己的代币，可以代表他们�
   - [2. 资产绑定 Asset Seizing](#2as)
   - [3. 市场约束 Market Restriction](#3mr)
   - [4. 交易约束 Transfer Restrictions](#4rr)
-- [公司股份 Company Shares](#Company-Shares)
+- [公司股份 Company Shares](#user-content-company-shares)
 - [活动门票 Event Tickets](#et)
 - [奖励积分 Rewards Points](#rp)
 - [个人或公司债务 Individual or Corporate Debt](#icd)
